@@ -1,13 +1,13 @@
 import React from 'react'
-import Gridlist from './components/Gridlist'
-import Ptquestion from './components/Ptquestion'
 import style from './style.css'
+import Game from './components/simplequetion/Game'
 
 const App = () => {
   return (
     <div>
         {/* <Gridlist/> */}
-        <Ptquestion/>
+        {/* <Ptquestion/> */}
+        <Game/>
     </div>
   )
 }
