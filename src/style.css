@@ -1,0 +1,28 @@
+body{
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.main-container{
+    padding:1rem;
+    border:2px solid black;
+}
+.container{
+    display:grid;
+    gap:10px;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+}
+.box{
+    border:1px solid black
+}
+.active{
+    border:1px solid black;
+    background-color: green;
+}
+.not-active{
+    border:1px solid black;
+    background-color: white;
+}
